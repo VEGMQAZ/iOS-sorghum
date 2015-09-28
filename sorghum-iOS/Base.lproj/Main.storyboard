@@ -132,18 +132,6 @@
                                     <rect key="frame" x="137" y="256" width="126" height="30"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuS-Bf-NFb">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Guest">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="137" y="320" width="126" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="hMs-Kg-NXO" kind="show" id="HJa-kB-1wW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivw-Zx-udR">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Sign-up">
@@ -210,6 +198,18 @@
                                     <segue destination="JXo-3B-Bbu" kind="show" id="ihz-e5-45K"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuS-Bf-NFb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Guest">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="137" y="326" width="126" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="hMs-Kg-NXO" kind="show" id="HJa-kB-1wW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -217,13 +217,13 @@
                                 <exclude reference="kYt-eS-jlq"/>
                                 <exclude reference="MIS-q1-En0"/>
                                 <exclude reference="2e1-su-z03"/>
-                                <exclude reference="RuS-Bf-NFb"/>
                                 <exclude reference="ivw-Zx-udR"/>
                                 <exclude reference="ywz-HG-W2e"/>
                                 <exclude reference="hl3-Ja-akF"/>
                                 <exclude reference="uEX-Q7-Fgy"/>
                                 <exclude reference="V2q-jN-aHW"/>
                                 <exclude reference="HZ5-9c-jUM"/>
+                                <exclude reference="RuS-Bf-NFb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -231,13 +231,13 @@
                                 <include reference="kYt-eS-jlq"/>
                                 <include reference="MIS-q1-En0"/>
                                 <include reference="2e1-su-z03"/>
-                                <include reference="RuS-Bf-NFb"/>
                                 <include reference="ivw-Zx-udR"/>
                                 <include reference="ywz-HG-W2e"/>
                                 <include reference="hl3-Ja-akF"/>
                                 <include reference="uEX-Q7-Fgy"/>
                                 <include reference="V2q-jN-aHW"/>
                                 <include reference="HZ5-9c-jUM"/>
+                                <include reference="RuS-Bf-NFb"/>
                             </mask>
                         </variation>
                     </view>
