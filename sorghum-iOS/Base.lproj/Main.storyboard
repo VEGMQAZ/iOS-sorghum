@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Password Reset-->
         <scene sceneID="qs0-ay-44J">
             <objects>
-                <viewController id="zRG-Us-idD" sceneMemberID="viewController">
+                <viewController id="zRG-Us-idD" userLabel="Password Reset" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LLV-He-AR8"/>
                         <viewControllerLayoutGuide type="bottom" id="0rP-Lb-RDC"/>
@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="2038.5" y="-350"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Screen-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" userLabel="Login Screen" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -250,10 +250,10 @@
             </objects>
             <point key="canvasLocation" x="1272" y="339"/>
         </scene>
-        <!--View Controller-->
+        <!--User Registration-->
         <scene sceneID="ud4-4J-aK7">
             <objects>
-                <viewController id="gN7-I3-A1Q" sceneMemberID="viewController">
+                <viewController id="gN7-I3-A1Q" userLabel="User Registration" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YHS-Tp-zEH"/>
                         <viewControllerLayoutGuide type="bottom" id="4hr-lP-eXC"/>
@@ -356,12 +356,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9F-Mb-5LS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2038.5" y="1110"/>
+            <point key="canvasLocation" x="1981.5" y="1110"/>
         </scene>
-        <!--View Controller-->
+        <!--Help Screen-->
         <scene sceneID="o62-aI-fJ7">
             <objects>
-                <viewController id="JXo-3B-Bbu" sceneMemberID="viewController">
+                <viewController id="JXo-3B-Bbu" userLabel="Help Screen" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y3o-v6-9qP"/>
                         <viewControllerLayoutGuide type="bottom" id="j01-yJ-5VE"/>
@@ -395,7 +395,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5z4-5z-HRs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2038.5" y="339"/>
+            <point key="canvasLocation" x="2692.5" y="1110"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="z67-WE-zPM">
@@ -475,6 +475,9 @@
                                         <variation key="widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="83" y="447" width="76" height="36"/>
                                         </variation>
+                                        <connections>
+                                            <segue destination="mvq-h3-oOH" kind="showDetail" id="ZeZ-07-890"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gp2-yv-tGf">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -633,7 +636,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ntz-Ua-rrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3405" y="339"/>
+            <point key="canvasLocation" x="2187" y="339"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OtS-bG-DV6">
@@ -708,7 +711,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wcz-a9-N7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1272" y="2116"/>
+            <point key="canvasLocation" x="3147" y="339"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
