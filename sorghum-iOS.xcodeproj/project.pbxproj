@@ -15,6 +15,7 @@
 		A56CAD0E1BA3243E00B634E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56CAD0D1BA3243E00B634E6 /* Images.xcassets */; };
 		A56CAD111BA3243E00B634E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56CAD0F1BA3243E00B634E6 /* LaunchScreen.xib */; };
 		A56CAD1D1BA3243E00B634E6 /* sorghum_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CAD1C1BA3243E00B634E6 /* sorghum_iOSTests.m */; };
+		B608E1DA1BBC3BD600FF13E9 /* farmland-3f20bef4346755881589dafa10d7ca98.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B608E1D91BBC3BD600FF13E9 /* farmland-3f20bef4346755881589dafa10d7ca98.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A56CAD161BA3243E00B634E6 /* sorghum-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sorghum-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56CAD1B1BA3243E00B634E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A56CAD1C1BA3243E00B634E6 /* sorghum_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sorghum_iOSTests.m; sourceTree = "<group>"; };
+		B608E1D91BBC3BD600FF13E9 /* farmland-3f20bef4346755881589dafa10d7ca98.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "farmland-3f20bef4346755881589dafa10d7ca98.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		A56CACFC1BA3243E00B634E6 /* sorghum-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				B608E1D91BBC3BD600FF13E9 /* farmland-3f20bef4346755881589dafa10d7ca98.jpg */,
 				A56CAD011BA3243E00B634E6 /* AppDelegate.h */,
 				A56CAD021BA3243E00B634E6 /* AppDelegate.m */,
 				A56CAD071BA3243E00B634E6 /* ViewController.h */,
@@ -202,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B608E1DA1BBC3BD600FF13E9 /* farmland-3f20bef4346755881589dafa10d7ca98.jpg in Resources */,
 				A56CAD0C1BA3243E00B634E6 /* Main.storyboard in Resources */,
 				A56CAD111BA3243E00B634E6 /* LaunchScreen.xib in Resources */,
 				A56CAD0E1BA3243E00B634E6 /* Images.xcassets in Resources */,
@@ -420,6 +424,7 @@
 				A56CAD221BA3243E00B634E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A56CAD231BA3243E00B634E6 /* Build configuration list for PBXNativeTarget "sorghum-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +433,7 @@
 				A56CAD251BA3243E00B634E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

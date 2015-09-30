@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JFB-dn-1cb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JFB-dn-1cb">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -107,20 +107,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kYt-eS-jlq">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kYt-eS-jlq">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="48" y="138" width="300" height="30"/>
+                                    <rect key="frame" x="50" y="138" width="300" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MIS-q1-En0">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MIS-q1-En0">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="48" y="198" width="300" height="30"/>
+                                    <rect key="frame" x="50" y="200" width="300" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2e1-su-z03">
@@ -138,7 +138,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="271" y="550" width="92" height="30"/>
+                                    <rect key="frame" x="288" y="550" width="92" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="gN7-I3-A1Q" kind="show" id="Ir3-Uz-OSZ"/>
@@ -159,7 +159,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="550" width="51" height="30"/>
+                                    <rect key="frame" x="20" y="550" width="51" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="8PP-PB-clg" kind="show" id="qkR-Sm-G2V"/>
@@ -177,27 +177,6 @@
                                     <segue destination="zRG-Us-idD" kind="show" id="YoJ-tn-nsa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2q-jN-aHW">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="?">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="338" y="72" width="30" height="30"/>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZ5-9c-jUM">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="?">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="338" y="72" width="30" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="JXo-3B-Bbu" kind="show" id="ihz-e5-45K"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuS-Bf-NFb">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Guest">
@@ -208,6 +187,18 @@
                                 </variation>
                                 <connections>
                                     <segue destination="hMs-Kg-NXO" kind="show" id="HJa-kB-1wW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZ5-9c-jUM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="320" y="86" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="JXo-3B-Bbu" kind="show" id="ihz-e5-45K"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -221,9 +212,8 @@
                                 <exclude reference="ywz-HG-W2e"/>
                                 <exclude reference="hl3-Ja-akF"/>
                                 <exclude reference="uEX-Q7-Fgy"/>
-                                <exclude reference="V2q-jN-aHW"/>
-                                <exclude reference="HZ5-9c-jUM"/>
                                 <exclude reference="RuS-Bf-NFb"/>
+                                <exclude reference="HZ5-9c-jUM"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -235,9 +225,8 @@
                                 <include reference="ywz-HG-W2e"/>
                                 <include reference="hl3-Ja-akF"/>
                                 <include reference="uEX-Q7-Fgy"/>
-                                <include reference="V2q-jN-aHW"/>
-                                <include reference="HZ5-9c-jUM"/>
                                 <include reference="RuS-Bf-NFb"/>
+                                <include reference="HZ5-9c-jUM"/>
                             </mask>
                         </variation>
                     </view>
@@ -636,7 +625,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ntz-Ua-rrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2463" y="353"/>
+            <point key="canvasLocation" x="2175" y="353"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OtS-bG-DV6">
@@ -654,7 +643,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l6z-9a-eid" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="354" y="339"/>
+            <point key="canvasLocation" x="348" y="353"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6CP-UP-RBU">
@@ -726,6 +715,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="182" y="550" width="37" height="30"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="Vtv-1N-mQt" kind="showDetail" id="Vh4-t3-Vec"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take or upload 10 pictures of your sorghum crops" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmm-tf-6wb">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -758,7 +750,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wcz-a9-N7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3468" y="353"/>
+            <point key="canvasLocation" x="3090" y="353"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="g7F-NQ-EES">
@@ -850,10 +842,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rlv-aS-cGu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4278" y="359"/>
+            <point key="canvasLocation" x="3978" y="353"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Qj1-fn-1Lr"/>
+        <segue reference="HJa-kB-1wW"/>
     </inferredMetricsTieBreakers>
 </document>
