@@ -812,6 +812,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPn-uD-178">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Continue"/>
+                                <connections>
+                                    <segue destination="Vtv-1N-mQt" kind="showDetail" id="lMk-2K-2eD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take or upload 10 pictures of your sorghum crops" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmm-tf-6wb">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -982,6 +985,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rlv-aS-cGu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3978" y="353"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JzE-4x-jq8">
+            <objects>
+                <viewController id="ZDw-QH-bPS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ON5-hu-mAn"/>
+                        <viewControllerLayoutGuide type="bottom" id="t4c-De-D7K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M8e-dF-fAD">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sg1-Wf-SGM">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                                </variation>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Sg1-Wf-SGM"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Sg1-Wf-SGM"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LyN-JZ-hON" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4797" y="361"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
