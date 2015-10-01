@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -11,25 +12,19 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="farmland-3f20bef4346755881589dafa10d7ca98.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vha-Ss-wil">
+                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="farmland-3f20bef4346755881589dafa10d7ca98.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ulk-Ql-Kfg">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="480" id="9Um-8q-sfr"/>
-                        <constraint firstAttribute="width" constant="480" id="iVp-AY-Q1s"/>
+                        <constraint firstAttribute="width" secondItem="ulk-Ql-Kfg" secondAttribute="height" multiplier="1:1" id="zjC-yI-hu7"/>
                     </constraints>
                     <variation key="default">
                         <mask key="constraints">
-                            <exclude reference="9Um-8q-sfr"/>
-                            <exclude reference="iVp-AY-Q1s"/>
+                            <exclude reference="zjC-yI-hu7"/>
                         </mask>
-                    </variation>
-                    <variation key="widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact">
                         <mask key="constraints">
-                            <include reference="9Um-8q-sfr"/>
-                            <include reference="iVp-AY-Q1s"/>
+                            <include reference="zjC-yI-hu7"/>
                         </mask>
                     </variation>
                 </imageView>
@@ -80,52 +75,51 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="vha-Ss-wil" firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="0mD-fH-WDq"/>
+                <constraint firstAttribute="bottom" secondItem="ulk-Ql-Kfg" secondAttribute="bottom" id="8mV-hJ-l7r"/>
+                <constraint firstItem="ulk-Ql-Kfg" firstAttribute="centerX" secondItem="rAX-nY-uqW" secondAttribute="centerX" id="AJu-oH-A4f"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="J5S-Rw-1FR"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="LCp-Rx-XsY"/>
-                <constraint firstItem="vha-Ss-wil" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RQi-Zt-vBX"/>
+                <constraint firstItem="rAX-nY-uqW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Rpk-b8-eFY"/>
                 <constraint firstItem="rAX-nY-uqW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="88" id="Wmn-KF-PI9"/>
-                <constraint firstItem="vha-Ss-wil" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="afw-6r-26f"/>
-                <constraint firstItem="vha-Ss-wil" firstAttribute="centerX" secondItem="rAX-nY-uqW" secondAttribute="centerX" id="bLg-yg-rdd"/>
-                <constraint firstAttribute="bottom" secondItem="vha-Ss-wil" secondAttribute="bottom" id="d8u-uO-OhT"/>
-                <constraint firstItem="vha-Ss-wil" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="eB5-JY-08D"/>
+                <constraint firstItem="ulk-Ql-Kfg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qXz-HA-2tC"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yWQ-LY-qMw"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="subviews">
-                    <exclude reference="vha-Ss-wil"/>
+                    <exclude reference="ulk-Ql-Kfg"/>
                     <exclude reference="rAX-nY-uqW"/>
                 </mask>
                 <mask key="constraints">
-                    <exclude reference="0mD-fH-WDq"/>
-                    <exclude reference="RQi-Zt-vBX"/>
-                    <exclude reference="afw-6r-26f"/>
-                    <exclude reference="bLg-yg-rdd"/>
-                    <exclude reference="d8u-uO-OhT"/>
-                    <exclude reference="eB5-JY-08D"/>
+                    <exclude reference="8mV-hJ-l7r"/>
+                    <exclude reference="AJu-oH-A4f"/>
+                    <exclude reference="qXz-HA-2tC"/>
+                    <exclude reference="Rpk-b8-eFY"/>
                     <exclude reference="Wmn-KF-PI9"/>
                     <exclude reference="J5S-Rw-1FR"/>
                     <exclude reference="LCp-Rx-XsY"/>
+                    <exclude reference="yWQ-LY-qMw"/>
                 </mask>
             </variation>
             <variation key="widthClass=compact">
                 <mask key="subviews">
-                    <include reference="vha-Ss-wil"/>
                     <include reference="rAX-nY-uqW"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="ulk-Ql-Kfg"/>
+                </mask>
                 <mask key="constraints">
-                    <include reference="0mD-fH-WDq"/>
-                    <include reference="RQi-Zt-vBX"/>
-                    <include reference="afw-6r-26f"/>
-                    <include reference="bLg-yg-rdd"/>
-                    <include reference="d8u-uO-OhT"/>
-                    <include reference="eB5-JY-08D"/>
+                    <include reference="8mV-hJ-l7r"/>
+                    <include reference="AJu-oH-A4f"/>
+                    <include reference="qXz-HA-2tC"/>
+                    <include reference="Rpk-b8-eFY"/>
                     <include reference="Wmn-KF-PI9"/>
                     <include reference="J5S-Rw-1FR"/>
                     <include reference="LCp-Rx-XsY"/>
+                    <include reference="yWQ-LY-qMw"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="548" y="455"/>
